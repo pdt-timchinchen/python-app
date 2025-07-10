@@ -11,7 +11,7 @@ def details():
 	return jsonify({
 		'time' : datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"),
 		'host' : socket.gethostname(),
-		'message' : 'Backstage course in progress! :-) '
+		'message' : 'Backstage course in progress! Getting there'
 	})
 
 
